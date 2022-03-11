@@ -13,7 +13,7 @@ function DogPics() {
         console.log("setState");
         setImages(data.message);
       });
-  });
+  }, []); // we can pass in an empty arr of dependencies as arg
 
   console.log("render");
 
